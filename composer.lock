@@ -1,0 +1,213 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2181c71db99cfc32f706535e4309f8a3",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.0.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "ImageCMS",
+                "MODX Evo",
+                "Mautic",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2016-04-13T19:46:30+00:00"
+        },
+        {
+            "name": "cube/cube-acf-cli",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:Joeri-Abbo/cube-acf-cli.git",
+                "reference": "2ef4e2e8c91ffb1937082c4c4c7a60604131c638"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Joeri-Abbo/cube-acf-cli/zipball/2ef4e2e8c91ffb1937082c4c4c7a60604131c638",
+                "reference": "2ef4e2e8c91ffb1937082c4c4c7a60604131c638",
+                "shasum": ""
+            },
+            "type": "wordpress-muplugin",
+            "authors": [
+                {
+                    "name": "Joeri Abbo",
+                    "email": "joeri@rodesk.com",
+                    "homepage": "https://www.linkedin.com/in/joeri-abbo-43a457144/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Cube ACF CLI package.",
+            "homepage": "http://rodesk.com",
+            "keywords": [
+                "acf"
+            ],
+            "support": {
+                "source": "https://github.com/Joeri-Abbo/cube-acf-cli/tree/v1.0.0",
+                "issues": "https://github.com/Joeri-Abbo/cube-acf-cli/issues"
+            },
+            "time": "2020-11-21T10:54:33+00:00"
+        },
+        {
+            "name": "rodeskwp/advanced-custom-fields-pro",
+            "version": "5.9.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://wp.rodeskpackages.nl/satispress/advanced-custom-fields-pro/5.9.3",
+                "shasum": "19c9043eccc288902e7e2416fbeaff05ff0a7e26"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Elliot Condon",
+                    "homepage": "https://www.advancedcustomfields.com"
+                }
+            ],
+            "description": "Customize WordPress with powerful, professional and intuitive fields.",
+            "homepage": "https://www.advancedcustomfields.com"
+        },
+        {
+            "name": "rokit/rodesk-packages-acf",
+            "version": "v1.1.6",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:web-nl/rodesk-packages-acf.git",
+                "reference": "d7c494e0b4099701bed3443ec1dbb54fb8fba727"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://packages.webnl.io/GWsbg0rmLlkPDqSzxoyRj21yy/dist/rokit/rodesk-packages-acf/rokit-rodesk-packages-acf-v1.1.6-d92390.tar",
+                "reference": "d7c494e0b4099701bed3443ec1dbb54fb8fba727",
+                "shasum": "30e4b049e1fa5ee60c29c2a0b2c2d8cabdb1d6f3"
+            },
+            "require": {
+                "composer/installers": "~1.0.6",
+                "php": ">=5.6.3"
+            },
+            "type": "wordpress-muplugin",
+            "autoload": {
+                "psr-4": {
+                    "Rokit\\Acf\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Joeri Abbo",
+                    "email": "joeri@rodesk.com",
+                    "homepage": "http://rodesk.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Rokit ACF package. A package to manage several different ACF settings, filters and actions.",
+            "homepage": "http://rodesk.com",
+            "keywords": [
+                "acf"
+            ],
+            "time": "2020-06-12T14:43:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
